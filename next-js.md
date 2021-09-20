@@ -52,6 +52,8 @@ Files that may not be modified by a developer:
     └── index.scss                  // main stylesheet
 ```
 
+**Files in the `/pages` directory may NOT contain any css imports**
+
 **components/**
 
 Stateless components. Shouldn’t store state. Most components in this directory will be function-based components. Stuff like buttons, inputs, labels and all presentational components goes here. This components can also accept functions as props and dispatch events, but no state should be held inside.
@@ -132,3 +134,4 @@ All components must be ***default exported*** and not set as *constants.*
     pricing.js      // page file in /pages directory
     PackageDetail   // sub component
     PaymentHandler  // sub component for handling payment logic
+
