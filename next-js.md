@@ -4,7 +4,7 @@
 
 Developers must take care to **NEVER** work directly in any of the branches listed above. 
 
-They may they **NOT*** manually merge their code into the branches. Instead, a pull request must be opened once a feature has been implemented within its respective branch.
+They may they **NOT** manually merge their code into the branches. Instead, a pull request must be opened once a feature has been implemented within its respective branch.
 
 ## Project Organization
 
@@ -90,6 +90,20 @@ All *page* file names must be SEO friendly.
 `pages/index.js` would be the root file/ screen and its URL would be https://maqsad.io
 
 `pages/login.js` would be the login screen and its URL would be https://maqsad.io/login
+
+### Console Logs and Alerts:
+
+All logs and alerts **MUST** be readible and meaningful.
+
+**Unacceptable**
+
+    console.log('3756', subjectsCount)
+    console.log('xxxxxx', getAllBoards)
+
+**Good**
+
+    console.log('Subjects count: ', subjectsCount)
+    console.log('getAllBoards called: : ', getAllBoards)
 
 ### Variable Naming:
 
