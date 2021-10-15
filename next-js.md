@@ -2,7 +2,12 @@
 
 ### Recommended IDE: JetBrains WebStorm
 
-Developers must take care to **NEVER** work directly in any of the branches listed above. 
+Developers must take care to **NEVER** work directly in any of the ***production*** branches:
+
+1. `dev`
+2. `qa`
+3. `staging`
+4. `release`
 
 They may they **NOT** manually merge their code into the branches. Instead, a pull request must be opened once a feature has been implemented within its respective branch.
 
